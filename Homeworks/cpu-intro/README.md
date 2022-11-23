@@ -206,8 +206,8 @@ the process moves to a BLOCKED state, and while the device is busy servicing
 the I/O, the CPU is idle.
 
 To handle the completion of the I/O, one more CPU action takes place. Note
-that a single instruction to handle I/O initiation and completion is not
-particularly realistic, but just used here for simplicity.
+that a single instruction to handle I/O initiation and completion is **not**
+**particularly realistic, but just used here for simplicity.**
 
 Let's print some stats (run the same command as above, but with the -p flag)
 to see some overall behaviors: 
@@ -246,7 +246,6 @@ There are a few other important flags:
 ```
 
 Now go answer the questions at the back of the chapter to learn more, please.
-
 
 
 
